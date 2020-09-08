@@ -1,8 +1,15 @@
+buildscript {
+    dependencies{
+        classpath files('lib/gradleguard-V00.01.01.jar')
+    }
+
+}
 plugins {
     id 'java'
     id 'eclipse'
-    id 'vt.edu.gradleguard.plugin' version 'V00.01.01'
 }
+//https://stackoverflow.com/questions/35302414/adding-local-plugin-to-a-gradle-project
+apply plugin: 'vt.edu.gradleguard.plugin'
 
 version = '1.0'
 sourceCompatibility = 1.8

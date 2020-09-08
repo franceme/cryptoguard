@@ -1,9 +1,18 @@
+/*
 pluginManagement {
     repositories {
         maven {
-            url = '/full path here/gradleguard/build/repo'
+            url = uri('https://github.com/franceme/gradleguard')
         }
     }
 }
+*/
+sourceControl {
+    gitRepository("https://github.com/franceme/gradleguard.git") {
+        producesModule("vt.edu.gradleguard.plugin:gradleguard")
+    }
+}
+
+
 
 rootProject.name = 'VerySimple_Gradle'
