@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        maven {
+            url = '/full path here/gradleguard/build/repo'
+        }
+    }
+}
+
+rootProject.name = 'VerySimple_Gradle'

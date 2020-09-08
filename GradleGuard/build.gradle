@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'vt.edu.gradleguard.plugin' version 'V00.01.01'
+}
+
+version = '1.0'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+jar {
+
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+
+    manifest {
+        attributes(
+                'Main-Class': 'very'
+        )
+    }
+}
