@@ -1,8 +1,4 @@
----
-layout: default
----
-
-# CryptoGuard IEEE SecDev Tutorial
+# CryptoGuard IEEE SecDev 2020 Tutorial
 
 ## How is this tutorial run
 ![Diagram](http://www.plantuml.com/plantuml/png/RP1DYiCm38NtEOKkC7E0B8R0K4fteJSmzclgaiX1FwMzVLtIXGdT20a-FJvfK0jYlipTAEM6QFJpH-FiK-QUpZ39k8Eqk4HGB0aKE5722axWcA7KRVXxyL-UgvMZ1qbz7H1iunMr19by0PlIfKYBTas_3pay4DsWP5UGni2_ExfnTM6b4zVq9LWkt8XzZlkE3U1KF_02)
