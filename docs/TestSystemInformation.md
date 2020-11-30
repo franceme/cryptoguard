@@ -11,6 +11,6 @@ permalink: /testInfo/
 * Test OS Architecture: x64
 
 ## Java Version Information
-* JVM Major Version: 1.8
-* JVM Vendor Version: AdoptOpenJDK
+* JVM Major Version: 11
+* JVM Vendor Version: Ubuntu
 
