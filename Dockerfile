@@ -57,11 +57,11 @@ RUN curl -s "https://get.sdkman.io" | bash
 
 # Installing Java and Maven, removing some unnecessary SDKMAN files 
 RUN bash -c "source /home/runner/.sdkman/bin/sdkman-init.sh && \
-    yes | sdk install java 7.0.262-zulu && \
-    yes | sdk install java 8.0.265-zulu && \
+    yes | sdk install java 7.0.312-zulu && \
+    yes | sdk install java 8.0.302-zulu && \
     yes | sdk install gradle 6.0 && \
-    yes | sdk install java 11.0.8.hs-adpt && \
-    sdk default java 11.0.8.hs-adpt"
+    yes | sdk install java 11.0.12-zulu && \
+    sdk default java 11.0.12-zulu"
 
 USER root
 
